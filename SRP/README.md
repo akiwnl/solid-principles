@@ -1,4 +1,4 @@
-# Single Responsibility Principle
+# Single Responsibility Principle (SRP)
 
 <h3><b>Uma classe deve ter um, e somente um, motivo para mudar.</b></h3>
 
