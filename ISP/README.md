@@ -15,3 +15,8 @@ O problema existe uma vez que nem todos os carros do mundo possuem teto solar, d
 Para corrrigir a violação do ISP, é necessário fazer algumas alteraçoes no código, como:
 
 ![correctISP](https://github.com/akiwnl/solid-principles/assets/83625654/2a53c65c-6f7c-4435-ad1e-985a9f6a0dd1)
+
+Aqui a violação do Princípio da Responsabilidade Única (SRP) foi corrigida, pois agora a classe Car se concentra apenas nas funcionalidades relacionadas ao comportamento básico de um carro, como ligar o motor.
+
+Para tratar de funcionalidades específicas, como abrir o teto solar, foi introduzida uma nova classe chamada CarWithSunroof, que herda da classe Car. Essa nova classe é responsável apenas por adicionar a funcionalidade de abrir o teto solar.
+
