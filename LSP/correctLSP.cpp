@@ -9,14 +9,12 @@ class Bird {
             cout << "pecking..." << endl;
         }
 };
-
 class FlyingBirds : public Bird {
     public:
         void fly(){
             cout << "flying..." << endl;
         }
 };
-
 class Penguin : Bird {
     public:
         void performActions(){
@@ -24,7 +22,6 @@ class Penguin : Bird {
         }
     // They can peck.
 };
-
 class Crow : public FlyingBirds {
     public:
         void performActions(){
@@ -33,7 +30,6 @@ class Crow : public FlyingBirds {
         }
     // Crow can fly and peck.
 };
-
 
 int main(){
     Crow crow;
